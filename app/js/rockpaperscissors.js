@@ -43,7 +43,7 @@ function getWinner(playerMove,computerMove) {
     /* YOUR CODE HERE */
     if (playerMove === "rock"){
         if (computerMove ==="rock"){
-            winnter ="tie";
+            winner ="tie";
         } else if (computerMove === "paper"){
             winner = "computer";
         } else {
